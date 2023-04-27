@@ -1,0 +1,8 @@
+<meta charset="UTF-8">
+<script>
+ const parede = prompt('Informe em metros quadrados o tamanho da parede a ser construida:')
+ const trespc = Number(parede) * 0.97
+ const tijolopm = 1/0.361
+ const conta = Math.ceil(tijolopm * trespc)
+ document.write(`Serão utilizados ${conta} tijolos`)    
+</script>
